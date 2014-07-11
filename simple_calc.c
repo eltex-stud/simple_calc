@@ -6,7 +6,7 @@ int main()
     int arg1;
     int arg2;
     int arg3 = 2;
-
+    float result;
     printf("Privet! Ya kalkulator. Ya mogu:\n");
 
     func_list();
@@ -37,14 +37,14 @@ int main()
             result = deduct(arg1, arg2);
             break;
 
-        case 5: /*  (a + b) / 2  */
+        case 5: /*  (a + b) / c  */
             result = sum_then_divide(arg1, arg2, arg3);
             break;
 
-        case 6: /*  (a + b) * 2  */
+        case 6: /*  (a + b) * c  */
             result = sum_then_mult(arg1, arg2, arg3);
             break;
     }
-
+    printf("Rezultat: %3f\n", result);
     return 0;
 }
