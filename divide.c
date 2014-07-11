@@ -1,10 +1,10 @@
 #include "simple_calc.h"
 
-float divide(int a, int b)
+float divide(float arg1, float arg2)
 {
     if(b != 0) {
-        return a/b;
+        return arg1/arg2;
     } else {
-        return 0;
+        return 1;
     }
 }
