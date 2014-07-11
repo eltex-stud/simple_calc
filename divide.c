@@ -5,6 +5,6 @@ float divide(float arg1, float arg2)
     if(arg2 != 0) {
         return arg1/arg2;
     } else {
-        return 1;
+        FLAG_ERROR=1;
     }
 }
