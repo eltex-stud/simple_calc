@@ -45,6 +45,6 @@ int main()
             result = sum_then_mult(arg1, arg2, arg3);
             break;
     }
-
+    printf("Rezultat: %3f\n", result);
     return 0;
 }
