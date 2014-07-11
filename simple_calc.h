@@ -3,7 +3,6 @@
 #include <stdio.h>
 #include <math.h>
 
-extern unsigned char FLAG_ERROR = 0;
 
 void func_list();
 float divide(float arg1, float arg2);
