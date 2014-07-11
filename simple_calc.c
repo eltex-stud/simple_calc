@@ -34,7 +34,7 @@ int main()
             break;
 
         case 4: //vychetanie
-            result = deduct(arg1, arg2);
+            result = sub(arg1, arg2);
             break;
 
         case 5: /*  (a + b) / c  */
