@@ -1,4 +1,4 @@
-#include "sipmpl_calc.h"
+#include "simple_calc.h"
 
 float sum_then_mult(float arg1, float arg2, float arg3)
 {
