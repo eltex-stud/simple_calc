@@ -1,5 +1,7 @@
 #include "simple_calc.h"
 
+extern unsigned char FLAG_ERROR = 0;
+
 float divide(float arg1, float arg2)
 {
     if(arg2 != 0) {
