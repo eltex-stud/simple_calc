@@ -1,6 +1,6 @@
 #include "simple_calc.h"
 
-extern unsigned char FLAG_ERROR = 0;
+unsigned char FLAG_ERROR;
 
 float divide(float arg1, float arg2)
 {
