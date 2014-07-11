@@ -1,9 +1,9 @@
 CC=gcc
 CFLAGS=-g -c -Wall -Werror
-LDFLAGS=-lncurses -lmenu -lpanel
+LDFLAGS=-lm 
 SOURCES=*.c
 OBJECTS=*.o
-BINARY=testNCURSES
+BINARY=SIMPLE_CALC
 
 all: $(BINARY)
 
