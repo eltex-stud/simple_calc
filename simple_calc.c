@@ -77,6 +77,6 @@ int main()
 
 
     }
-    printf("Rezultat: %3f\n", result);
+    printf("Rezultat: %.3f\n", result);
     return 0;
 }
