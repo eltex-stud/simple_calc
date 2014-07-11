@@ -1,6 +1,6 @@
 #include "simple_calc.h"
 
-extern unsigned char FLAG_ERROR = 0;
+unsigned char FLAG_ERROR;
 
 float sum_then_divide(float arg1, float arg2, float arg3)
 {
