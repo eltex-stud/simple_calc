@@ -14,4 +14,4 @@ $(OBJECTS): $(SOURCES)
 	$(CC) $(CFLAGS) $(SOURCES)
 
 clean: 
-	rm $(OBJECTS) $(BINARY)
+	rm -rf $(OBJECTS) $(BINARY)
