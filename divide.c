@@ -10,4 +10,5 @@ float divide(float arg1, float arg2)
         printf ("Delenie na 0");
         FLAG_ERROR=1;
     }
+    return 1;
 }
