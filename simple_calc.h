@@ -5,3 +5,4 @@ void func_list();
 
 float divide(float arg1, float arg2);
 float sum(float arg1, float arg2);
+float sum_then_divide(float arg1, float arg2, float arg3);
