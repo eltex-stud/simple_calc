@@ -6,7 +6,7 @@ int main()
     int arg1;
     int arg2;
     int arg3 = 2;
-    float reuslt;
+    float result;
     printf("Privet! Ya kalkulator. Ya mogu:\n");
 
     func_list();
