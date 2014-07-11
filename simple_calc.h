@@ -3,4 +3,4 @@
 
 void func_list();
 
-float divide(int arg1, int arg2);
+float divide(float arg1, float arg2);
